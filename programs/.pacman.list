@@ -12,10 +12,11 @@ i3status
 linux
 linux-firmware
 networkmanager
-nvim
+neovim
 picom
 polybar
 rofi
+rust
 stow
 vi
 vim

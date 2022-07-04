@@ -5,7 +5,7 @@ command -v stow >/dev/null 2>&1 || { echo >&2 "stow is not installed.  Aborting.
 
 if [ -z $STOW_FOLDERS ]
 then
-	STOW_FOLDERS=alacritty,git,i3,picom
+	STOW_FOLDERS=alacritty,git,i3,picom,lvim
 fi
 
 # Create symlinks
