@@ -11,7 +11,7 @@ an executable
 -- general
 lvim.log.level = "warn"
 lvim.format_on_save = true
-lvim.colorscheme = "dracula"
+lvim.colorscheme = "gruvbox"
 -- to disable icons and use a minimalist setup, uncomment the following
 -- lvim.use_icons = false
 
@@ -151,6 +151,10 @@ lvim.plugins = {
     cmd = "TroubleToggle",
   },
   { "Mofiqul/dracula.nvim" },
+  { "NoahTheDuke/vim-just" },
+  { "ellisonleao/gruvbox.nvim" },
+  { "aklt/plantuml-syntax" },
+  { "wuelnerdotexe/vim-astro" },
 }
 
 -- Autocommands (https://neovim.io/doc/user/autocmd.html)
@@ -166,3 +170,8 @@ lvim.plugins = {
 --     require("nvim-treesitter.highlight").attach(0, "bash")
 --   end,
 -- })
+
+-- Custom additions
+
+-- add a line stop
+vim.wo.colorcolumn = '80,120'

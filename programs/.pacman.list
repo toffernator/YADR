@@ -1,6 +1,7 @@
 alacritty
 alsa-utils
 arandr
+bat
 base
 base-devel
 chromium
@@ -13,6 +14,7 @@ linux
 linux-firmware
 networkmanager
 neovim
+papirus-icon-theme
 picom
 polybar
 rofi
